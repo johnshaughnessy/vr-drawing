@@ -63,16 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Drawing\Prefabs\DatasetBuilder.cs" />
     <Compile Include="Assets\Drawing\Scripts\CaptureScreenshot.cs" />
+    <Compile Include="Assets\Drawing\Scripts\DatasetBuilder.cs" />
     <Compile Include="Assets\Drawing\Scripts\Draw.cs" />
     <Compile Include="Assets\Drawing\Scripts\Line.cs" />
     <Compile Include="Assets\Drawing\Scripts\PlanarMouseDrawingTool.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Quad.cs" />
     <Compile Include="Assets\Drawing\Scripts\VisibleLineWithLineRenderer.cs" />
     <Compile Include="Assets\Drawing\Scripts\VisibleLineWithProceduralMesh.cs" />
     <Compile Include="Assets\Drawing\Scripts\ViveControllerDrawingTool3D.cs" />
     <Compile Include="Assets\Drawing\Scripts\WatsonFeedback.cs" />
     <Compile Include="Assets\Drawing\Scripts\WatsonScreenShotter.cs" />
+    <Compile Include="Assets\QuadDrawer.cs" />
+    <Compile Include="Assets\QuadDrawingTool.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

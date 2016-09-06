@@ -68,7 +68,7 @@ public class VisibleLineWithProceduralMesh : Line
 		mesh.triangles = ToIntArray(triangles);
 	}
 
-	private static int[] ToIntArray(List<Vector3> tris)
+	public static int[] ToIntArray(List<Vector3> tris)
 	{
 		var ret = new int[tris.Count * 3];
 		for (var i=0; i<tris.Count; i++)
