@@ -79,9 +79,9 @@ public class Quad : MonoBehaviour
 		};
 		triangles = new List<Vector3>();
 		triangles.Add(new Vector3(0,1,2));
-		//triangles.Add(new Vector3(0,2,1));
+		triangles.Add(new Vector3(0,2,1));
 		triangles.Add(new Vector3(1,2,3));
-		//triangles.Add(new Vector3(1,3,2));
+		triangles.Add(new Vector3(1,3,2));
 
 		mesh.vertices = vertices;
 		mesh.triangles = VisibleLineWithProceduralMesh.ToIntArray(triangles);

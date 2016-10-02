@@ -3,7 +3,7 @@ using VRTK;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(VRTK_ControllerEvents))]
-public class ViveControllerDrawingTool3D : MonoBehaviour, DrawingTool3D
+public class ViveControllerDrawingTool: MonoBehaviour, DrawingTool3D
 {
 	private VRTK_ControllerEvents events;
 	[SerializeField]
@@ -20,8 +20,8 @@ public class ViveControllerDrawingTool3D : MonoBehaviour, DrawingTool3D
 		RequireLine();
 
 		events = GetComponent<VRTK_ControllerEvents>();
-		events.TouchpadTouchStart += DrawStart;
-		events.TouchpadTouchEnd += DrawEnd;
+		events.TouchpadPressed += DrawStart;
+		events.TouchpadReleased += DrawEnd;
 		events.TriggerPressed += EraseDrawing;
 	}
 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ada9ca7a62877404596aa09b101e443b
+timeCreated: 1475364497
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - VisibleLinePrefab: {fileID: 1000012033574526, guid: aae41739d9badff4abb82fa11f3a8a90,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

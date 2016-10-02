@@ -143,7 +143,7 @@ public class SteamVR_LoadLevel : MonoBehaviour
 				var prevActive = RenderTexture.active;
 				RenderTexture.active = renderTexture;
 
-				if (Event.current.type == EventType.Repaint)
+				if (UnityEngine.Event.current.type == EventType.Repaint)
 					GL.Clear(false, true, Color.clear);
 
 				GUILayout.BeginArea(new Rect(0, 0, w, h));

@@ -52,7 +52,7 @@ public class SteamVR_Menu : MonoBehaviour
 		var prevActive = RenderTexture.active;
 		RenderTexture.active = texture;
 
-		if (Event.current.type == EventType.Repaint)
+		if (UnityEngine.Event.current.type == EventType.Repaint)
 			GL.Clear(false, true, Color.clear);
 
 		var area = new Rect(0, 0, texture.width, texture.height);

@@ -6,7 +6,7 @@ public class VisibleLineWithProceduralMesh : Line
 {
 	[SerializeField] private bool useMinDistanceHeuristic;
 	[SerializeField] [Range(0.0f, 1.0f)] private float minDistance;
-	[SerializeField] [Range(0.0f, 1.0f)] private float lineWidth = 0.005f;
+	[SerializeField] [Range(0.0f, 0.01f)] private float lineWidth;
 	private List<Vector3> triangles = new List<Vector3>();
 	private List<Vector3> curve = new List<Vector3>();
 	private List<Vector3> vertices = new List<Vector3>();

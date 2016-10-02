@@ -63,19 +63,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Drawing\Scripts\BasisProxy.cs" />
     <Compile Include="Assets\Drawing\Scripts\CaptureScreenshot.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Convert2DOF1DOF.cs" />
     <Compile Include="Assets\Drawing\Scripts\DatasetBuilder.cs" />
+    <Compile Include="Assets\Drawing\Scripts\DirectedRotateMode1.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Directional2DOFMotion.cs" />
     <Compile Include="Assets\Drawing\Scripts\Draw.cs" />
+    <Compile Include="Assets\Drawing\Scripts\FixPositionToHead.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Inverse3DOF.cs" />
+    <Compile Include="Assets\Drawing\Scripts\InverseBool.cs" />
+    <Compile Include="Assets\Drawing\Scripts\JonicomaUtil.cs" />
     <Compile Include="Assets\Drawing\Scripts\Line.cs" />
+    <Compile Include="Assets\Drawing\Scripts\LocalToWorldBasis.cs" />
+    <Compile Include="Assets\Drawing\Scripts\MimickTransform.cs" />
     <Compile Include="Assets\Drawing\Scripts\PlanarMouseDrawingTool.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Position3DOF.cs" />
     <Compile Include="Assets\Drawing\Scripts\Quad.cs" />
+    <Compile Include="Assets\Drawing\Scripts\QuadDrawer.cs" />
+    <Compile Include="Assets\Drawing\Scripts\QuadDrawingTool.cs" />
+    <Compile Include="Assets\Drawing\Scripts\RotationController.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Square1DOF.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Square3DOF.cs" />
+    <Compile Include="Assets\Drawing\Scripts\TapMove3DOF.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Transform3DOF.cs" />
+    <Compile Include="Assets\Drawing\Scripts\TranslateMode1Force.cs" />
+    <Compile Include="Assets\Drawing\Scripts\TranslationController.cs" />
     <Compile Include="Assets\Drawing\Scripts\VisibleLineWithLineRenderer.cs" />
     <Compile Include="Assets\Drawing\Scripts\VisibleLineWithProceduralMesh.cs" />
-    <Compile Include="Assets\Drawing\Scripts\ViveControllerDrawingTool3D.cs" />
+    <Compile Include="Assets\Drawing\Scripts\Visualize3DOFAtPosition.cs" />
+    <Compile Include="Assets\Drawing\Scripts\ViveControllerDrawingTool.cs" />
+    <Compile Include="Assets\Drawing\Scripts\ViveControllerTriggerPressed.cs" />
+    <Compile Include="Assets\Drawing\Scripts\ViveControllerTriggerReleased.cs" />
+    <Compile Include="Assets\Drawing\Scripts\ViveTouchpad2DOF.cs" />
     <Compile Include="Assets\Drawing\Scripts\WatsonFeedback.cs" />
     <Compile Include="Assets\Drawing\Scripts\WatsonScreenShotter.cs" />
-    <Compile Include="Assets\QuadDrawer.cs" />
-    <Compile Include="Assets\QuadDrawingTool.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
