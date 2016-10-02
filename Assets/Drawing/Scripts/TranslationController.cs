@@ -15,7 +15,6 @@ public class TranslationController : MonoBehaviour
 
 	void Update ()
 	{
-		Debug.DrawLine(transform.position, transform.position + velocitySrc.GetAxes(), Color.blue);
 		var velocity = velocitySrc.GetAxes() * topSpeed;
 		if (forceIsLocal)
 		{

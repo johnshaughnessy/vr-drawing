@@ -41,7 +41,6 @@ public class TapMove3DOF : MonoBehaviour , I3DOF
 
 	public Vector3 GetAxes()
 	{
-		Debug.DrawLine(startPoint, endPoint);
 		return endPoint - startPoint;
 	}
 }
